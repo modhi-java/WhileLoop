@@ -140,12 +140,21 @@ public class Main {
         intArray = new double[]{m1.getRateb(), m2.getRateb(), m3.getRateb(), m4.getRateb(), m5.getRateb(), m6.getRateb(), m7.getRateb(), m8.getRateb(), m9.getRateb(), m10.getRateb()};
 
         double sum = 0;
-        int i = 0;
-        while (i < intArray.length) {
+//        int i = 0;
+//        while (i < intArray.length) {
+//            sum = sum+intArray[i]   ;
+//
+//            i++;
+//        }
+//        System.out.println(sum);
+
+        for (int i = 0; i < intArray.length;i++){
             sum = sum+intArray[i]   ;
 
-            i++;
+
         }
+
+        //لو كان امر الطباعة داخل القوس سوف يطبع كل مرة
         System.out.println(sum);
     }
 }
